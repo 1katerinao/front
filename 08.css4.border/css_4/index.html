@@ -1,0 +1,78 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CSS. Часть №4 (Свойства блоков - стили оформления)</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="example-block">
+			<a href="">text</a>
+			Блочный тег <br />
+			<b>border</b> позволяет установить толщину, цвет и стиль границы блока<br>
+			bd+tab<br>
+			border-left: none;
+		</div>
+		<div class="line-dotted">
+			Dotted line<br />
+			border-top, border-left, border-right, border-down
+		</div>
+		<div class="line-dashed">
+			Dashed line
+		</div>
+		<div class="overflow-hidden">
+			D Overflow: hidden;<br />
+			D Overflow: hidden;<br />
+			D Overflow: hidden;
+		</div>
+		<div class="circle">
+			DDDDDDDDDDD<br />
+			DDDDDDDDDDDD<br />
+			DDDDDDDDDDDD
+		</div>
+		<div class="outline">
+			Outline - отличие от border<br />
+			Он устанавливается не внутри блока, подвигая содержимое внутрь,
+			а на внешней границе блока. Outline можно указать только для
+		    всех 4 сторон, и для него не действует border-radius.
+		</div>
+		<div class="box-shadow">
+			Тень к элементу box, примерно как для text-shadow<br />
+			Параметры: смещение x, смещение y, радиус, расстояние.
+		</div>
+		<div class="shadow-radius">
+			Круглая тень
+		</div>
+		<div class="twoshadows">
+			Две тени, одна из них внутрь блока
+		</div>
+		<div class="opacity0">
+			<a href="">text</a>
+			прозрачность
+		</div>
+		<div class="opacity05">
+			Полупрозрачность. Отличие от display: none - в том, что
+			opacity можно анимировать.
+		</div>
+		<div class="visibility">
+			Visibility (отображение или скрытие). Если блок скрыт,
+			его место остается за ним. Но с его элементами при этом
+			нельзя взяимодействовать (например, со ссылкой) - это
+			отличие от opacity=0.
+		</div>
+		<span class="example-string">
+			Строчный тег <br />
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quidem consequatur suscipit. Soluta deleniti dolorem maiores aperiam possimus temporibus voluptatum sunt et saepe, veniam, debitis obcaecati. Sequi, eius tenetur beatae?
+		</span>
+		<p>
+			<img class="example-image" src="img/youtube.png" alt="" />
+		</p>
+	</body>
+</html>

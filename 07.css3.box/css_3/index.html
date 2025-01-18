@@ -1,0 +1,147 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CSS. Часть №3 (Свойства блоков - отступы, размеры, характеристики)</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="example-block1">
+			Блочный тег. <br />
+			Padding сверху 10px, справа 20px, снизу 30px, слева 5px.
+			Padding сверху 10px, справа 20px, снизу 30px, слева 5px.
+			Padding сверху 10px, справа 20px, снизу 30px, слева 5px.
+		</div>
+		<div class="example-block2">
+			"p20 tab" = padding: 20 (быстрая команда в Visual Studio Code)
+			Padding сверху 10px, слева и справа 20px, снизу 30px.
+			Padding сверху 10px, слева и справа 20px, снизу 30px.
+			Padding сверху 10px, слева и справа 20px, снизу 30px.
+		</div>
+		<div class="example-block3">
+			Padding сверху и снизу 10px, слева и справа 20px.
+			Padding сверху и снизу 10px, слева и справа 20px.
+			Padding сверху и снизу 10px, слева и справа 20px.
+		</div>
+		<div class="example-block4">
+			Padding 20px. Padding 20px.	Padding 20px.
+			Padding 20px. Padding 20px.	Padding 20px.
+			Padding 20px. Padding 20px.	Padding 20px.
+			Padding 20px. Padding 20px.	Padding 20px.
+		</div>
+		<span class="example-string">
+			Строчный тег. <br />
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium at eos assumenda recusandae expedita, unde nisi, enim itaque nihil temporibus animi magni repellendus, molestiae, ipsum reprehenderit! Tenetur, minus, earum!
+		</span>
+		<div class="example-block5">
+			Padding 10%. Padding 10%. Padding 10%.
+			Padding 10%. Padding 10%. Padding 10%.
+			Padding 10%. Padding 10%. Padding 10%.
+			Padding 10%. Padding 10%. Padding 10%.
+		</div>
+		<div class="example-margin1">
+			Margin - внешний отступ блочных тегов.
+			Margin сверху 10px, справа 20px, снизу 30px, слева 5px.
+			Margin сверху 10px, справа 20px, снизу 30px, слева 5px.
+			Margin сверху 10px, справа 20px, снизу 30px, слева 5px.
+		</div>
+		<div class="example-margin2">
+			Margin 10px. Margin 10px. Margin 10px. Margin 10px.
+			Margin 10px. Margin 10px. Margin 10px. Margin 10px.
+			Margin 10px. Margin 10px. Margin 10px. Margin 10px.
+		</div>
+		<br>
+		<div class="example-margin3">
+			Margin - с заездом за границу.
+			Margin сверху и снизу 10px, слева и справа -10px.
+			Margin сверху и снизу 10px, слева и справа -10px.
+			Margin сверху и снизу 10px, слева и справа -10px.
+		</div>
+		<br>
+		<div class="example-width">
+			w500+tab = задание ширины в Visual Studion Code. Width=500px.
+			w500+tab = задание ширины в Visual Studion Code. Width=500px.
+			w500+tab = задание ширины в Visual Studion Code. Width=500px.
+			w500+tab = задание ширины в Visual Studion Code. Width=500px.
+		</div> 
+		Свойство WIDTH применяется к некоторым строчным тегам, например, IMG:
+		<img class="example-image" src="img/v2_600x600.jpg" alt="">
+		<div class="example-max-width">
+			Max-width=400. Min-width=200. Max-width=400. Min-width=200.
+			Max-width=400. Min-width=200. Max-width=400. Min-width=200.
+			Max-width=400. Min-width=200. Max-width=400. Min-width=200.
+		</div>
+		<img class="example-image2" src="img/v2_600x600.jpg" alt="">
+		<div class="example-height1">
+			Height=100. Height=100. Height=100. Height=100.
+			Height=100. Height=100. Height=100. Height=100.
+			Height=100. Height=100. Height=100. Height=100.
+		</div>
+		<div class="example-height2">
+			Height=20%. Height=20%. Height=20%. Height=20%.
+			Height=20%. Height=20%. Height=20%. Height=20%.
+			Height=20%. Height=20%. Height=20%. Height=20%.
+		</div>
+		<div class="example-overflow">
+			Out of bound. Out of bound. Out of bound. Out of bound.
+			Out of bound. Out of bound.
+		</div>
+		The text below.<br>
+		The text below.<br>
+		The text below.<br>
+		<div class="example-overflow-visible">
+			Overflow-visible. Overflow-visible. Overflow-visible. 
+		</div>
+		The text below.<br>
+		The text below.<br>
+		<div class="example-overflow-scroll">
+			Overflow-scroll. Overflow-scroll. Overflow-scroll. 
+			Overflow-scroll. 
+		</div>
+		The text below.<br>
+		The text below.<br>
+		<div class="example-overflow-auto">
+			Overflow-auto. Overflow-auto. Overflow-auto. 
+			Overflow-auto. 
+		</div>
+		The text below.<br>
+		The text below.<br>
+		<div class="example-toblock">
+			display: block - делает элемент блочным<br/>
+		    display: block display: block display: block 
+			display: block display: block display: block display: block 
+			display: block display: block display: block display: block 
+			display: block display: block display: block display: block 
+		</div>
+		<span class="example-toblock">
+			Строчный тег. <br />
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores praesentium at eos assumenda recusandae expedita, unde nisi, enim itaque nihil temporibus animi magni repellendus, molestiae, ipsum reprehenderit! Tenetur, minus, earum!
+		</span>
+		<div class="example-toinline">
+			display: block - делает элемент строкой<br/>
+		    display: block display: block display: block 
+			display: block display: block display: block display: block 
+			display: block display: block display: block display: block 
+			display: block display: block display: block display: block 
+		</div>
+		<div class="example-toinlineblock">
+			inline-block - гибрид блока и строки<br/>
+		    Занимает ширину контента, который в нём.
+		    Но на него действуют отступы сверху и снизу, ширины.
+		</div>
+		<div class="example-tonone">
+			Этого текста не видно.
+			Этого текста не видно.
+			Этого текста не видно.
+			Этого текста не видно.
+			Этого текста не видно.
+		</div>
+	</body>
+</html>

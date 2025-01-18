@@ -1,0 +1,139 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.example-block1 {
+	padding: 10px 20px 30px 5px;
+	border: 1px solid #000;
+}
+.example-block2 {
+	padding: 10px 20px 30px;
+	border: 1px solid #000;
+}
+.example-block3 {
+	padding: 10px 20px;
+	border: 1px solid #000;
+}
+.example-block4 {
+	padding: 20px;
+	border: 1px solid #000;
+}
+.example-string {
+    padding: 20px;
+}
+.example-block5 {
+	padding: 10%;
+	border: 1px solid #000;
+}
+.example-margin1 {
+	margin: 10px 20px 30px 5px;
+	border: 1px solid #4400ff;
+}
+.example-margin2 {
+	margin: 10px;
+	border: 1px solid #4400ff;
+}
+.example-margin3 {
+	margin: -10px;
+	border: 1px solid #4400ff;
+}
+.example-width {
+	width: 500px;
+	border: 1px solid #ff0000;
+}
+.example-image {
+	width: 100px;
+}
+.example-max-width {
+	max-width: 400px;
+	min-width: 200px;
+	border: 1px solid #ff0000;
+}
+.example-image2 {
+	width: 50%;
+	max-width: 500px;
+	min-width: 200px;
+}
+.example-height1 {
+	height: 200px;
+	border: 1px solid #00ff11;
+}
+.example-height2 {
+	height: 20%;
+	border: 1px solid #00ff11;
+}
+.example-overflow {
+	max-height: 50px;
+	max-width: 100px;
+	border: 1px solid #00ff11;
+}
+.example-overflow-visible {
+	max-height: 50px;
+	max-width: 100px;
+	overflow: visible;
+	border: 1px solid #00ff11;
+}
+.example-overflow-hidden {
+	max-height: 50px;
+	max-width: 100px;
+	overflow: hidden;
+	border: 1px solid #00ff11;
+}
+.example-overflow-scroll {
+	max-height: 50px;
+	max-width: 100px;
+	overflow: scroll;
+	border: 1px solid #00ff11;
+}
+.example-overflow-auto {
+	max-height: 50px;
+	max-width: 100px;
+	overflow: auto;
+	border: 1px solid #00ff11;
+}
+.example-toblock {
+	display: block;
+	border: 1px solid #ff00a2;
+}
+.example-toinline {
+	display: inline;
+	border: 1px solid #ff0291;
+}
+.example-toinlineblock {
+	display: inline-block;
+	border: 1px solid #ff0291;
+}
+.example-tonone {
+	display: none;
+	border: 1px solid #ff0291;
+}

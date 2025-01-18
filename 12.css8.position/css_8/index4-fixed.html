@@ -1,0 +1,35 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CSS. Часть №8 (позиционирование)</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style4-fixed.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<p class="text">
+		<br>
+		<br>
+		<b>position: fixed</b> как и absolute, вырывает блок из кода<br>
+		Но он фиксируется сугубо по окну браузера, не по родителю.<br>
+		Скроллинг страницы не сдвигает такой блок.<br>
+	</p>
+	<body>
+		<div class="block">
+			<div class="block__1">
+				.block__1: fixed, z-index 0
+			</div>
+			<div class="block__2">
+				.block__2: fixed
+			</div>
+			<div class="block__3">
+				.block__3, z-index 3
+			</div>
+		</div>
+	</body>
+</html>

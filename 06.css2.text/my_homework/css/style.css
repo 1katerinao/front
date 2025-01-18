@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    font-size: 40px;
+}
+.termin,.sample{
+    font-weight: bold;
+}
+.textright{
+    text-align: right;
+}
+.decoration{
+    text-decoration: overline;
+}
+.shadow{
+    text-shadow: 2px 2px 2px darkblue;
+}
+.transform{
+    text-transform: capitalize;
+}
+.indent{
+    text-indent: 50px;
+}
+.lspacing{
+    letter-spacing: 5px;
+}
+.wspacing{
+    word-spacing: 5px;
+}
+.whitespace{
+    white-space: nowrap;
+}
+.lineheight{
+    line-height: 45px;
+    border: 1px solid #000;
+}
+
+

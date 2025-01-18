@@ -1,0 +1,36 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CSS. Часть №8 (позиционирование)</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style2-relative.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<p class="text">
+		<b>position: relative</b> позволяет сдвигать элемент<br>
+		Дополнительные свойства: left, top, right, bottom<br>
+        Значения можно указывать в процентах %<br>
+        Значения могут быть отрицательные<br>
+        <b>z-index</b> задает порядок наложения элементов, это число по умолчанию 0, со static не работает<br>
+        <br>
+	</p>
+	<body>
+		<div class="block">
+			<div class="block__1">
+				.block__1: static
+			</div>
+			<div class="block__2">
+				.block__2: relative(50px, 60px)
+			</div>
+			<div class="block__3">
+				.block__3
+			</div>
+		</div>
+	</body>
+</html>

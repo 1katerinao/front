@@ -1,0 +1,104 @@
+ /*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.example-block {
+	padding: 25px;
+	margin: 10px 10px 30px 10px;
+	font-size: 50px;
+	border: 10px solid #000;
+	border-left: none;
+}
+.line-dotted {
+	padding: 25px;
+	margin: 10px;
+	font-size: 50px;
+	border-top: 5px dotted #d4ff00;
+	border-bottom: 5px dotted #d4ff00;
+	border-left: 10px dashed #c50000;
+	border-right: 10px dashed #c50000;
+}
+.line-dashed {
+	padding: 25px;
+	margin: 10px;
+	font-size: 50px;
+	border: 5px dashed #d4ff00;
+	border-radius: 30px 0px 30px 40px;
+}
+.overflow-hidden {
+	overflow: hidden;
+	border-radius: 50px;
+	font-size: 50px;
+	margin: 0 0 30px 0;
+}
+.circle {
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	font-size: 50px;
+	margin: 0 0 30px 0;
+}
+.outline {
+	outline: 10px solid #000;
+	font-size: 50px;
+	margin: 0 0 30px 0;
+}
+.box-shadow {
+	box-shadow: 5px 5px 10px 5px #000;
+	font-size: 50px;
+	margin: 20px;
+}
+.shadow-radius {
+	box-shadow: 5px 5px 10px 5px #003a74;
+	background-color: #7cbbfa;
+	padding: 15px;
+	border-radius: 30px;
+	font-size: 50px;
+	margin: 20px;
+}
+.twoshadows {
+	box-shadow: 5px 5px 10px 5px #000, inset 5px 5px 10px 5px #ec0086;
+	font-size: 50px;
+	margin: 20px;
+}
+.opacity0 {
+	opacity: 0;
+	border: 10px solid #000;
+	font-size: 50px;
+	margin: 20px;
+}
+.opacity05 {
+	opacity: 0.5;
+	border: 10px solid #000;
+	font-size: 50px;
+	margin: 20px;
+}
+.visibility {
+	visibility: hidden;
+	border: 10px solid #000;
+	font-size: 50px;
+	margin: 20px;
+}
+.example-string {
+	font-size: 50px;
+	outline: 1px solid #000;
+}
+.example-image{
+	border: 5px dotted red;
+}

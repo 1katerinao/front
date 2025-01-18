@@ -1,0 +1,24 @@
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: magenta;
+}
+.hour{
+    color:magenta;
+    font-size: 30;
+}
+span.hour{
+    color:blue;
+}
+.menu span{
+    color:red;
+}
+.address>p{
+    font-style: italic;
+    color:lightcoral;
+    border: 1px solid #000;
+}
+footer{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
